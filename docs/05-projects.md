@@ -6,7 +6,7 @@ Selected work is the core of the portfolio.
 
 Do not show a huge grid of random projects.
 
-Show approximately **3–4 carefully selected projects**.
+**Decision (Ahmad, 2026-08-31):** Show exactly **2 projects — IKGO and DropATrack, both personal**. Company/work apps (Ganesha Operation, Refactory client work) are not shown here individually — that's confidentiality-sensitive and stays as CV-only text in the Career Roadmap section instead (see `23-master-data.md` §7/§9). Do not add other projects to this section without a new explicit decision.
 
 Each project should communicate:
 

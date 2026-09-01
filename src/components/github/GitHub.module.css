@@ -1,0 +1,97 @@
+.section {
+  padding: clamp(60px, 10vh, 120px) clamp(20px, 5vw, 74px);
+  border-bottom: 1px solid rgba(21, 23, 28, 0.18);
+}
+
+.inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.figLabel {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  color: rgba(21, 23, 28, 0.65);
+  margin-bottom: 10px;
+}
+
+.headingRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 34px;
+}
+
+.heading {
+  font-size: clamp(28px, 3.4vw, 40px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.profileLink {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: rgba(21, 23, 28, 0.72);
+  border-bottom: 1px solid rgba(21, 23, 28, 0.3);
+}
+
+.profileLink:hover {
+  color: var(--foreground);
+  border-color: var(--foreground);
+}
+
+.repoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.repoCard {
+  display: block;
+  padding: 18px 20px;
+  border: 1px solid rgba(21, 23, 28, 0.18);
+  background: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.repoCard:hover {
+  border-color: var(--accent);
+}
+
+.repoName {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--foreground);
+}
+
+.repoDesc {
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(21, 23, 28, 0.68);
+}
+
+.repoLang {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(21, 23, 28, 0.65);
+}
+
+.fallback {
+  font-size: 14.5px;
+  color: rgba(21, 23, 28, 0.72);
+}
+
+.fallback a {
+  color: var(--accent);
+  border-bottom: 1px solid currentColor;
+}

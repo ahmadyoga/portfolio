@@ -1,0 +1,111 @@
+.section {
+  padding: clamp(70px, 12vh, 140px) clamp(20px, 5vw, 74px) 0;
+}
+
+.inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.figLabel {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  color: rgba(21, 23, 28, 0.65);
+  margin-bottom: 10px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(21, 23, 28, 0.65);
+  margin: 0 0 20px;
+}
+
+.headline {
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.subline {
+  max-width: 46ch;
+  margin: 20px auto 0;
+  font-size: clamp(15px, 1.4vw, 17px);
+  line-height: 1.6;
+  color: rgba(21, 23, 28, 0.72);
+  text-wrap: pretty;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 36px;
+  padding: 16px 30px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  transition: filter 0.22s ease;
+}
+
+.ctaButton:hover {
+  filter: brightness(1.12);
+  color: #fff;
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+.ctaButton:hover .arrow {
+  transform: translateX(4px);
+}
+
+.linkList {
+  margin-top: 56px;
+  border-top: 1px solid rgba(21, 23, 28, 0.18);
+}
+
+.linkRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 4px;
+  border-bottom: 1px solid rgba(21, 23, 28, 0.14);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--foreground);
+  transition: color 0.2s ease;
+}
+
+.linkRow:hover {
+  color: var(--accent);
+}
+
+.linkLabel {
+  color: rgba(21, 23, 28, 0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 10.5px;
+}
+
+.footer {
+  margin-top: 70px;
+  padding: 16px clamp(20px, 5vw, 74px);
+  border-top: 1px solid rgba(21, 23, 28, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: rgba(21, 23, 28, 0.65);
+}

@@ -1,0 +1,67 @@
+.section {
+  padding: clamp(60px, 10vh, 120px) clamp(20px, 5vw, 74px);
+  border-bottom: 1px solid rgba(21, 23, 28, 0.18);
+}
+
+.inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.figLabel {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  color: rgba(21, 23, 28, 0.65);
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: clamp(28px, 3.4vw, 40px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryLabel {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(21, 23, 28, 0.65);
+  margin-bottom: 14px;
+}
+
+.chips {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chipWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.chip {
+  font-size: 14.5px;
+  color: rgba(21, 23, 28, 0.9);
+}
+
+.usedIn {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--accent);
+}

@@ -1,15 +1,16 @@
 # Site Structure
 
-Create the following major sections:
+Section order — decided (Ahmad, 2026-08-31):
 
 1. Hero
-2. Selected Work
-3. Project Case Studies
-4. Engineering Approach
-5. Skills / Technology
+2. About
+3. Selected Work / Project Case Studies (personal projects only — IKGO, DropATrack; see `23-master-data.md` §8)
+4. Career Roadmap (experience timeline — see `23-master-data.md` §9; company work stays as text bullets here, never named individually elsewhere on the site)
+5. Skills / Technology (Stack)
 6. GitHub / Open Source
-7. About
-8. Contact
+7. Contact
+
+Engineering Approach content (if kept) folds into the Project Case Studies section rather than standing alone — no separate nav entry.
 
 ## Navigation
 
